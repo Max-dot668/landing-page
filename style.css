@@ -28,19 +28,15 @@ body {
 
 .upper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .lower {
-    border: 2px solid white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 50px;
-}
-
-.left,
-.right {
-    border: 2px solid lightgreen;
 }
 
 ul {
