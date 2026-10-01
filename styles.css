@@ -1,5 +1,7 @@
+/* Import Google Fonts */
 @import url('https://googleapis.com');
 
+/* Global Styling */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -16,8 +18,15 @@ ul, a {
     gap: 16px;
     margin: 0;
     padding: 0;
+    flex-shrink: 0;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Header Styling */ 
 .header {
     display: flex;
     align-items: center;
@@ -29,6 +38,7 @@ ul, a {
 
 .logo {
     font-size: 24px;
+    flex-shrink: 0;
 }
 
 .logo i {
@@ -38,4 +48,62 @@ ul, a {
 
 .navigation {
     display: flex;
+}
+
+/* Hero Styling */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    padding: 64px 72px;
+    border: 2px solid darkgreen;
+}
+
+.hero-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    color: #3B2F2F;
+    padding: 0;
+}
+
+.main-text,
+.secondary-text {
+    margin-bottom: 24px;
+}
+
+.main-text {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #5A4D4D;
+}
+
+#hero-btn {
+    background-color: #B87333;
+    color: #3B2F2F;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 24px;
+}
+
+.hero-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#coffee-img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 8px;
 }
