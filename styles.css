@@ -170,3 +170,39 @@ button {
     color: #5A4D4D;
     font-size: 18px;
 }
+
+/* Quote Styling */
+.quote-container {
+    display: flex;
+    background-color: #DED2C4;
+    padding: 48px 64px;
+    gap: 24px;
+}
+
+.quote-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author-quote {
+    font-size: 24px;
+    color: #2C2424;
+}
+
+.author-name {
+    font-size: 24px;
+    color: #3B2F2F;
+}
