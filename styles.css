@@ -26,6 +26,11 @@ button {
     cursor: pointer;
 }
 
+h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
 /* Header Styling */ 
 .header {
     display: flex;
@@ -205,4 +210,44 @@ button {
 .author-name {
     font-size: 24px;
     color: #3B2F2F;
+}
+
+/* Call-To-Action Section */
+.call-to-action {
+    background-color: #C9BAA8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.message-box {
+    background-color: #3B2F2F;
+    padding: 32px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.box-text {
+    color: #F7F3EE;
+}
+
+.box-para {
+    color: #DED2C4;
+}
+
+.action-button-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn {
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #B87333;
+    color: #FFFFFF;
 }
