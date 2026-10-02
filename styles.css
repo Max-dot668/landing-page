@@ -57,7 +57,7 @@ button {
     justify-content: space-between;
     gap: 64px;
     padding: 64px 72px;
-    border: 2px solid darkgreen;
+    background-color: #EFE9E1;
 }
 
 .hero-content {
@@ -106,4 +106,67 @@ button {
     max-width: 700px;
     height: auto;
     border-radius: 8px;
+}
+
+/* Information Styling */
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8DFD3;
+    padding: 64px 72px;
+}
+
+.information-heading {
+    font-size: 32px;
+    color: #3B2F2F;
+    margin-bottom: 24px;
+}
+
+.information-container {
+    display: flex;
+    gap: 48px;
+}
+
+.mug,
+.bread,
+.recycle,
+.coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.mug i,
+.bread i,
+.recycle i,
+.coffee i {
+    font-size: 62px;
+}
+
+.mug i {
+    color: #4A7C59;
+}
+
+.bread i {
+    color: #B87333;
+}
+
+.recycle i {
+    color: #3B533C;
+}
+
+.coffee i {
+    color: #3B2F2F;
+}
+
+.information-text {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #5A4D4D;
+    font-size: 18px;
 }
