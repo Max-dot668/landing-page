@@ -31,6 +31,11 @@ h2, h3, p {
     padding: 0;
 }
 
+/* Main Content Section */
+.main-container {
+    flex: 1;
+}
+
 /* Header Styling */ 
 .header {
     display: flex;
@@ -250,4 +255,18 @@ h2, h3, p {
     border-radius: 6px;
     background-color: #B87333;
     color: #FFFFFF;
+}
+
+/* Footer Styling */
+
+.footer {
+    background-color: #3B2F2F; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.copyright-text {
+    color: #DED2C4;
+    padding: 16px;
 }
