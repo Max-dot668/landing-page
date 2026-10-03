@@ -155,6 +155,7 @@ h2, h3, p {
 .recycle i,
 .coffee i {
     font-size: 62px;
+    margin-bottom: 18px;
 }
 
 .mug i {
